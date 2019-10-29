@@ -1,0 +1,35 @@
+\section{Key Value Store}
+\subsection{Definition}
+Ein Key Value Store basiert auf einer Tabelle mit genau zwei Spalten: \\
+In der einen befindet sich ein eindeutiges Identifikationsmerkmal, der Schlüssel (Key), in der anderen der Wert (Value).
+Somit wird jeder Wert eindeutig einem Schlüssel zugewiesen.
+Welche Datentypen im Wert gespeichert werden können, ist abhängig vom verwendeten Key-Value Store.
+Es handelt sich somit um eine NoSQL Datenbank.
+\subsection{Vorteile und Nachteile}
+\subsubsection{Vorteile}
+\begin{itemize}
+	\item Geschwindigkeit
+	\item Skalierbarkeit
+	\item Simples Model, einfach verständlich
+\end{itemize}
+\subsubsection{Nachteile}
+\begin{itemize}
+	\item Für Daten mit vielen relationalen Abhängikeiten sehr komplex
+	\item Keine Lookup Optimierungen für das Suchen
+\end{itemize}
+\subsection{Einsatzgebiete}
+Überall wo schnelle Zugriffszeiten bei großen Datenmengen benötigt werden, eignen sich Key Value Stores. Typische Einsatzgebiete sind deshalb Warenkörbe in Onlineshops oder das Speichern von Session-Daten.
+
+\subsection{In-Memory}
+Disk und SSD - Charakteristiken, Stärken und Grenzen
+Die Bedeutung von In Memory Datenbanken
+
+\subsection{Top 5 Key Value Stores}
+Gemäss db-engines.com (Stand 27.10.2019) sind die folgenden Datenbanksysteme führend:
+\begin{enumerate}
+\item Redis
+\item Amazon DynamoDB
+\item Microsoft Azure Cosmos DB
+\item Memcached
+\item Hazelcast
+\end{enumerate}

@@ -1,0 +1,47 @@
+\documentclass[12pt]{article}
+
+\usepackage[left=25mm, top=30mm, bottom=20mm, right=25mm, headsep=10mm]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage[german]{babel}
+\usepackage{fancyhdr}
+\usepackage{graphicx}
+\usepackage{color, colortbl}
+\usepackage{tabularx}
+\usepackage{helvet}
+\usepackage[table,xcdraw]{xcolor}
+\usepackage{enumitem}
+\usepackage{parskip}
+\usepackage{float}
+
+\setlength{\parindent}{0pt}
+
+\newcommand{\subsubsubsection}[1]{\paragraph{#1}\mbox{}\\}
+\setcounter{secnumdepth}{4}
+\setcounter{tocdepth}{4}
+
+% ============== START Header and Footer ============== %
+% http://tug.ctan.org/info/german/fancyhdr/fancyfolien+bsp.pdf
+\pagestyle{fancy}
+\renewcommand{\headrulewidth}{.5pt}
+\fancyhead[OL,EL]{\fontsize{9}{12} \selectfont Advanced Data Managment}
+\fancyhead[OR,ER]{\fontsize{9}{12} \selectfont Redis Intro}
+
+\renewcommand{\footrulewidth}{.5pt}
+\fancyfoot[OL,EL]{\fontsize{9}{12} \selectfont Berner Fachhochschule}
+\fancyfoot[OC,EC]{\fontsize{9}{12} \selectfont \thepage}
+\fancyfoot[OR,ER]{\fontsize{9}{12} \selectfont Lars Peyer, Adrian Berger}
+% ============== END Header and Footer ============== %
+
+\makeatletter
+\setlength{\@fptop}{0pt}
+\makeatother
+
+\begin{document}
+	
+	\input{templates/titlepage}
+	\input{templates/table_of_contents}
+	\input{templates/key_value}
+	\clearpage
+	\input{templates/redis}
+	
+\end{document}
