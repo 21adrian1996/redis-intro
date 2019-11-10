@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2019.10.11)  9 NOV 2019 16:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2019.10.11)  10 NOV 2019 23:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -378,17 +378,10 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 11.
+ [2]) [3
 
-Overfull \hbox (0.65689pt too wide) in paragraph at lines 33--33
-[]|\OT1/cmr/m/n/12 Funktion| 
- []
-
-
-Overfull \hbox (3.741pt too wide) in paragraph at lines 27--40
-[][] 
- []
-
-[2]) [3] (./templates/redis.tex
+]
+(./templates/redis.tex
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2018/09/02 1.7 listings language file
 )
@@ -401,45 +394,47 @@ File: lstlang1.sty 2018/09/02 1.7 listings language file
 File: lstlang1.sty 2018/09/02 1.7 listings language file
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/it' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 72.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 71.
  [5
 
-]
-Overfull \hbox (51.84389pt too wide) in paragraph at lines 81--83
-\OT1/cmr/m/n/12 vi-sua-li-siert wer-den. An-lei-tun-gen und Bei-spie-le da-zu f
-in-den sich hier: htt-ps://redis.io/topics/benchmarks 
+] [6]
+Underfull \hbox (badness 10000) in paragraph at lines 104--105
+
  []
 
-<media/redis.png, id=30, 602.25pt x 416.55624pt>
+<media/redis.png, id=34, 602.25pt x 416.55624pt>
 File: media/redis.png Graphic file (type png)
 <use media/redis.png>
-Package pdftex.def Info: media/redis.png  used on input line 92.
-(pdftex.def)             Requested size: 199.16928pt x 137.75636pt.
-<media/diagram-cluster-architecture.png, id=31, 736.25063pt x 403.00563pt>
+Package pdftex.def Info: media/redis.png  used on input line 106.
+(pdftex.def)             Requested size: 455.24408pt x 314.88895pt.
+[7
+
+ <./media/redis.png>]
+Overfull \hbox (11.50264pt too wide) in paragraph at lines 116--117
+[]\OT1/cmr/m/n/12 Wenn ei-ne teil-wei-se Re-syn-chro-ni-sa-ti-on nicht m[]oglic
+h ist, for-dert der Sla-ve ei-ne vollst[]andige
+ []
+
+<media/diagram-cluster-architecture.png, id=39, 736.25063pt x 403.00563pt>
 File: media/diagram-cluster-architecture.png Graphic file (type png)
 <use media/diagram-cluster-architecture.png>
 Package pdftex.def Info: media/diagram-cluster-architecture.png  used on input 
-line 96.
-(pdftex.def)             Requested size: 284.52756pt x 155.7449pt.
-
-Overfull \hbox (21.3206pt too wide) in paragraph at lines 95--99
-\OT1/cmr/m/n/12 Ver-teil-te Da-ten-hal-tung, Ska-lier-bar-keit, Pro-to-kol-le, 
-Ar-chi-tek-tur htt-ps://redis.io/topics/replication 
- []
-
-[6 <./media/redis.png>] [7 <./media/diagram-cluster-architecture.png (PNG copy)
->])
-Underfull \hbox (badness 10000) in paragraph at lines 111--47
-
- []
-
+line 125.
+(pdftex.def)             Requested size: 398.33858pt x 218.0441pt.
 [8
+
+ <./media/diagram-cluster-architecture.png (PNG copy)>] [9])
+Underfull \hbox (badness 10000) in paragraph at lines 146--47
+
+ []
+
+[10
 
 ] (./handout.aux) ) 
 Here is how much of TeX's memory you used:
  5935 strings out of 492615
  80578 string characters out of 6131389
- 369811 words of memory out of 5000000
+ 369809 words of memory out of 5000000
  9737 multiletter control sequences out of 15000+600000
  8839 words of font info for 31 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -450,10 +445,10 @@ m/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr1
 /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/sha
 re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/tex
 live/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on handout.pdf (9 pages, 355510 bytes).
+Output written on handout.pdf (11 pages, 360073 bytes).
 PDF statistics:
- 64 PDF objects out of 1000 (max. 8388607)
- 41 compressed objects within 1 object stream
+ 70 PDF objects out of 1000 (max. 8388607)
+ 45 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  16 words of extra memory for PDF output out of 10000 (max. 10000000)
 

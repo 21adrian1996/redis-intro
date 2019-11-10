@@ -21,27 +21,9 @@ Es handelt sich somit um eine NoSQL Datenbank.
 Überall wo schnelle Zugriffszeiten bei großen Datenmengen benötigt werden, eignen sich Key Value Stores. Typische Einsatzgebiete sind deshalb Warenkörbe in Onlineshops oder das Speichern von Session-Daten.
 
 \subsection{In-Memory}
-Bei vielen Key Value Stores handelt es sich um In-Memory Datenbanken. Im Gegensatz zu herkömmlichen On-Disk Datenbanken verwenden diese anstelle des ROM, den Arbeitspeicher eines Computers.
-
-\begin{table}[H]
-	\begin{tabular}{|p{1.6cm}|p{6.9cm}|p{6.9cm}|}
-		\hline
-		\rowcolor{black}
-		&
-		\textcolor{white}{\textbf{Disk}} & \textcolor{white}{\textbf{SSD}}
-		\\
-		Funktion & Ist eine rotierenden Magnetscheibe & Speichermedium ist ein Flash-Speicher\\ 
-		\hline
-		Stärken & Günstig & Effizient \\
-		\hline
-		Grenzen &  &  \\
-		\hline 
-	\end{tabular}
-\end{table}
-
-Disk und SSD - Charakteristiken, Stärken und Grenzen
-Die Bedeutung von In Memory Datenbanken
-
+Bei vielen Key Value Stores handelt es sich um In-Memory Datenbanken. Im Gegensatz zu herkömmlichen On-Disk Datenbanken verwenden diese anstelle des ROM, den Arbeitspeicher eines Computers. Da die Schreib- und Lesezugriffe auf HDDs (durch die magnateische Scheiben) und SSDs (als Flash-Speicher) beschränkt sind, können in herkömmlichen On-Disk Datenbanken längere Ladezeiten auftretten. Durch die Verwendung von In-Memory, kann dieses Limit stark erhöht werden. Nachteil davon ist, dass die Daten nicht direkt persistent gespeichert sind.
+Dadurch sind In-Memory Datenbanken gut geeignet, um grosse Datenmenegen auszuwerten.
+\clearpage
 \subsection{Top 5 Key Value Stores}
 Gemäss db-engines.com (Stand 27.10.2019) sind die folgenden Datenbanksysteme führend:
 \begin{enumerate}
