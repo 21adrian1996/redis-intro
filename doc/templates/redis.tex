@@ -77,7 +77,7 @@ Eine Transaktion in Redis besteht aus einem Block von Befehlen, die zwischen MUL
 Sämtliche Informationen dazu finden sich hier: https://redis.io/topics/transactions
 
 \subsection{Massenload}
-Manchmal müssen Redis-Instanzen in kurzer Zeit mit einer großen Menge an bereits vorhandenen oder benutzergenerierten Daten geladen werden, so dass Millionen von Schlüsseln so schnell wie möglich erstellt werden.
+Manchmal müssen Redis-Instanzen in kurzer Zeit mit einer großen Menge an bereits vorhandenen oder benutzergenerierten Daten geladen werden, sodass Millionen von Schlüsseln so schnell wie möglich erstellt werden.
 
 Ab Redis 2.6 unterstützt das Dienstprogramm redis-cli einen neuen Modus namens Pipe-mode, der entwickelt wurde, um eine Masseneinfügung durchzuführen.
 
@@ -97,7 +97,7 @@ Weiter Informationen dazu finden sich hier: https://redis.io/topics/modules-intr
 \subsection{Persistenz}
 Redis bietet generell zwei Varianten der sicheren Datenspeicherung:
 
-RDB (Snapshots): Zu bestimmten Zeitpunkten (z.B. jede volle Stunde) wird eine vollständige Kopie der im Speicher befindlichen Daten erstellt. Wenn z.B. zwischen zwei Snapshots die Stromversorgung verlieren geht, gehen die Daten aus der Zeit zwischen dem letzten Snapshot und dem Crash verloren. 
+RDB (Snapshots): Zu bestimmten Zeitpunkten (z.B. jede volle Stunde) wird eine vollständige Kopie der im Speicher befindlichen Daten erstellt. Wenn z.B. zwischen zwei Snapshots die Stromversorgung verloren geht, gehen die Daten aus der Zeit zwischen dem letzten Snapshot und dem Crash verloren. 
 
 AOF: Logt jede vom Server empfangene Schreiboperation und führt diese beim Serverstart erneut ab zur Rekonstruktion des ursprünglichen Datensatzes.
 
