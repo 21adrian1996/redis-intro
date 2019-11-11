@@ -16,7 +16,7 @@
 \contentsline {subsubsection}{\numberline {2.4.1}Transaktionen}{6}% 
 \contentsline {subsection}{\numberline {2.5}Massenload}{6}% 
 \contentsline {subsection}{\numberline {2.6}Benchmarks}{6}% 
-\contentsline {subsection}{\numberline {2.7}API}{6}% 
+\contentsline {subsection}{\numberline {2.7}Module}{6}% 
 \contentsline {subsection}{\numberline {2.8}Persistenz}{7}% 
 \contentsline {subsection}{\numberline {2.9}Replikation}{8}% 
 \contentsline {subsection}{\numberline {2.10}Optimierungsm\IeC {\"o}glichkeiten}{9}% 
